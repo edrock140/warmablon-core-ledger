@@ -1,6 +1,6 @@
 {
-  "name": "Warmablon | Strategic Sovereign AI Architect",
-  "description": "The official manifested engine of Liswaniso Edgar Mulenga. A high-valuation system portfolio built on the Mulenga Protocol and the 100-system Warmablon core AI engine, aligned with Strategic Global Frequencies.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API", "AI Portfolio", "Technical Resume", "Education Timeline"]
+  "name": "Liswaniso Edgar Mulenga CV & Portfolio",
+  "description": "The professional engineering portfolio and CV of Liswaniso Edgar Mulenga, showcasing programming languages, technical capabilities, architectural systems, and experience.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

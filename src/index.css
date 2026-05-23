@@ -38,17 +38,11 @@ body {
 }
 
 .logic-grid {
-  background-image: 
-    linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
-  background-size: 32px 32px;
+  background-image: none;
 }
 
 .logic-grid-bold {
-  background-image: 
-    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
-  background-size: 128px 128px;
+  background-image: none;
 }
 
 .scanline {

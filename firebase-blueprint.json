@@ -2,7 +2,7 @@
   "entities": {
     "User": {
       "title": "User Profile",
-      "description": "Public profile for authenticated sovereign players.",
+      "description": "Public profile for authenticated developers.",
       "type": "object",
       "properties": {
         "uid": { "type": "string", "description": "Firebase Auth UID" },
@@ -15,9 +15,9 @@
       },
       "required": ["uid", "email", "role"]
     },
-    "SovereignSession": {
-       "title": "Sovereign Intelligence Session",
-       "description": "Logs of remote procedures and intelligence duels.",
+    "DeveloperSession": {
+       "title": "Developer Intelligence Session",
+       "description": "Logs of remote procedures and compiler execution runs.",
        "type": "object",
        "properties": {
          "userId": { "type": "string" },
@@ -33,7 +33,7 @@
       "description": "User profiles"
     },
     "/sessions/{sessionId}": {
-      "schema": "SovereignSession",
+      "schema": "DeveloperSession",
       "description": "Activity logs"
     }
   }
